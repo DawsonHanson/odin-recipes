@@ -1,2 +1,2 @@
 # odin-recipes
-This repository will feature the Recipes project from "The Odin Project". It will showcase basic HTML layout and tags to include- ordered/ unordered lits, headings, paragraphs, links and images. It will be updated in the future with CSS.  
+This repository will feature the Recipes project from "The Odin Project". It will showcase basic HTML layout and tags to include- ordered/ unordered lists, headings, paragraphs, links and images. It will be updated in the future with CSS.  
