@@ -1,0 +1,41 @@
+.heading { 
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center;
+    font-size: 40px
+}
+
+.sub-para {
+    font-family: 'Courier New', Courier, monospace; 
+    text-align: left;
+    font-size: 14px;
+}
+
+.ulist {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 16px;
+}
+
+.olist {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+}
+
+.purple {
+    color: rgb(212, 27, 212);
+}
+
+.red {
+    color: rgb(255, 0, 43);
+}
+
+.green {
+    color: green;
+}
+
+.blue-light {
+    color: rgba(76, 143, 243, 0.918);
+}
