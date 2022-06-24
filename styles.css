@@ -75,11 +75,25 @@ img {
     color:black;
     padding: 14px;
     border: 6px solid;
-    border-color: rgb(175, 41, 41);
-    background-color: rgb(253, 119, 119);
+    border-color:rgb(175, 41, 41);
+    background-color:rgb(253, 119, 119);
 }
 
 .list3 a:hover {
+    background-color: rgb(194, 152, 47);
+    color: black; 
+}
+
+.list4 a {
+    text-decoration: none;
+    color:black;
+    padding: 14px;
+    border: 6px solid;
+    background-color: rgb(212, 95, 207);
+    border-color: rgb(113, 43, 143);
+}
+
+.list4 a:hover {
     background-color: rgb(194, 152, 47);
     color: black; 
 }
@@ -121,4 +135,14 @@ p {
 .redgroup {
     border-color:rgb(175, 41, 41);
     background-color:rgb(253, 119, 119);
+}
+
+.home4 {
+    background-color: rgb(113, 43, 143);
+    color: rgb(212, 95, 207);
+}
+
+.purplegroup {
+    background-color: rgb(212, 95, 207);
+    border-color: rgb(113, 43, 143);
 }
