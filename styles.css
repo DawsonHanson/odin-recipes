@@ -1,9 +1,8 @@
 * {
     box-sizing: border-box;
-    border: 1px solid red;
 }
 
-div {
+.heading {
     text-align: center;
     font-family: monospace;
     font-size: 33px;
@@ -14,15 +13,33 @@ div {
     margin-top: -10px;
 }
 
+.module {
+    width: 310px;
+    margin: auto;
+}
+
+img {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: content-box;
+    border: 10px;
+    border-style: solid;
+}
+
 span {
     text-align:left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+}
+
+.bluegroup {
+    background-color: rgb(175, 226, 235);
+    border-color: rgb(38, 110, 122);
 }
 
 .home {
     background-color: rgb(38, 110, 122);
-    color:lightslategrey
+    color: rgb(175, 226, 235);
 }
 
 .piz {
