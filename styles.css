@@ -1,6 +1,9 @@
-* {
+html {
     box-sizing: border-box;
-}
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
 
 .heading {
     text-align: center;
@@ -14,20 +17,46 @@
 }
 
 .module {
-    width: 310px;
+    width: 320px;
     margin: auto;
 }
 
 img {
-    padding: 20px;
+    padding: 23px;
+    border: 12px solid;
     margin-left: auto;
     margin-right: auto;
     box-sizing: content-box;
-    border: 10px;
-    border-style: solid;
 }
 
-span {
+.module2 {
+    list-style: none;
+    display: flex;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list {
+    width: auto;
+    margin: auto;
+}
+
+.list a {
+    text-decoration: none;
+    color:black;
+    padding: 14px;
+    border: 6px solid;
+    background-color: rgb(175, 226, 235);
+    border-color: rgb(38, 110, 122);
+}
+
+.list a:hover {
+    background-color: rgb(194, 152, 47);
+    color: black;
+}
+
+p {
     text-align:left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -37,22 +66,11 @@ span {
     border-color: rgb(38, 110, 122);
 }
 
+#home-color {
+    background-color: rgb(139, 135, 135);
+}
+
 .home {
     background-color: rgb(38, 110, 122);
     color: rgb(175, 226, 235);
-}
-
-.piz {
-    background-color: ;
-    color: ;
-}
-
-.las {
-    background-color: ;
-    color: ;
-}
-
-.per {
-    background-color: ;
-    color: ;
 }
